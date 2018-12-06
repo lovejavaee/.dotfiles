@@ -1,6 +1,6 @@
 # Account Settings -----
 
-set from      = "root@zanshin.net"
+set from      = "root@lovejavaee.net"
 set sendmail  = "/usr/local/bin/msmtp -a root"
 
 # Default inbox.

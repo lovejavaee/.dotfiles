@@ -30,8 +30,8 @@ path=/Users/mark/.mail
 #
 [user]
 name=Mark Nichols
-primary_email=mark@zanshin.net
-other_email=root@zanshin.net;chef@zanshin.net;code.prole@gmail.com;
+primary_email=mark@lovejavaee.net
+other_email=root@lovejavaee.net;chef@lovejavaee.net;code.prole@gmail.com;
 
 # Configuration for "notmuch new"
 #

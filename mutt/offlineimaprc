@@ -19,11 +19,11 @@ localfolders = ~/.mail/mark
 [Repository mark-Remote]
 maxconnections = 3
 type = IMAP
-remoteuser = mark_zanshin
+remoteuser = mark_lovejavaee
 remotehost = mail.webfaction.com
 remoteport = 993
 ssl = yes
-remotepasseval = get_keychain_pass(account="mark_zanshin", server="mail.webfaction.com")
+remotepasseval = get_keychain_pass(account="mark_lovejavaee", server="mail.webfaction.com")
 realdelete = no
 
 [Account root]
@@ -37,11 +37,11 @@ localfolders = ~/.mail/root
 [Repository root-Remote]
 maxconnections = 3
 type = IMAP
-remoteuser = root_zanshin
+remoteuser = root_lovejavaee
 remotehost = mail.webfaction.com
 remoteport = 993
 ssl = yes
-remotepasseval = get_keychain_pass(account="root_zanshin", server="mail.webfaction.com")
+remotepasseval = get_keychain_pass(account="root_lovejavaee", server="mail.webfaction.com")
 realdelete = no
 
 [Account chef]
@@ -56,11 +56,11 @@ localfolders = ~/.mail/chef
 [Repository chef-Remote]
 maxconnections = 3 
 type = IMAP
-remoteuser = chef_zanshin
+remoteuser = chef_lovejavaee
 remotehost = mail.webfaction.com
 remoteport = 993
 ssl = yes
-remotepasseval = get_keychain_pass(account="chef_zanshin", server="mail.webfaction.com")
+remotepasseval = get_keychain_pass(account="chef_lovejavaee", server="mail.webfaction.com")
 realdelete = no
 
 [Account marknichols]

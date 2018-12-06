@@ -104,7 +104,7 @@ function chef_prompt() {
 #  [ pwd = '^.*est-chef' ] && echo "[chef: est]"
 #  [ pwd = '^.*ome-chef' ] && echo "[chef: ome]"
 #  [ pwd = '^.*opscode-chef' ] && echo "[chef: opscode]"
-#  [ pwd = '^.*zanshin-chef' ] && echo "[chef: zanshin]"
+#  [ pwd = '^.*lovejavaee-chef' ] && echo "[chef: lovejavaee]"
 
 #  if [[ "`pwd | sed -e 's/.*-chef.*//'`" == "" ]]; then
 #    echo "[chef: `pwd | sed -e 's/.*\/\([a-z0-9]*\)-chef.*/\1/'`]"

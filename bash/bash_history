@@ -326,7 +326,7 @@ ln -s struts-2.1.8.1 struts
 sudo ln -s struts-2.1.8.1 struts
 cd ~/Projects/
 cd hg
-hg clone ssh://hg@bitbucket.org/zanshin/struts/
+hg clone ssh://hg@bitbucket.org/lovejavaee/struts/
 cd struts
 mvn -version
 mvn archtype:generate -B -DgroupId=tutorial =DartifactId=tutorial -DarchetypeGroupId=org.apache.struts -DarchetypeARtifactId=struts2-archetype-blank -DarchetypeVersion=2.1.8.1
@@ -816,12 +816,12 @@ cd Projects/
 cd jruby/
 mkdir jrubycookbook
 cd jrubycookbook/
-mkdir -p net.zanshin.ch01
-rm -rf net.zanshin.ch01/
+mkdir -p net.lovejavaee.ch01
+rm -rf net.lovejavaee.ch01/
 mkdir net
 cd net
-mkdir zanshin
-cd zanshin/
+mkdir lovejavaee
+cd lovejavaee/
 mkdir ch01
 cd ch01
 cd ../..
@@ -866,7 +866,7 @@ sudo gem install rails --pre
 sudo port upgrade sqlite3
 git --version
 git config --global user.name "Mark Nichols"
-git config --global user.email "mark@zanshin.net"
+git config --global user.email "mark@lovejavaee.net"
 git config --global color.ui auto
 ls /Users/mark/Applications/TextMate.app/
 git config --global core.editor /Users/mark/Applications/TextMate.app
@@ -881,7 +881,7 @@ git init
 touch README
 git add README
 git commit -m 'first commit'
-git remote add origin git@github.com:zanshin-cello/sandbox.git
+git remote add origin git@github.com:lovejavaee-cello/sandbox.git
 git push origin master
 cd bin
 ls -l
@@ -907,7 +907,7 @@ rails _1.2.6_ --version
 rail --version
 rails --version
 cd Projects/
-hg clone ssh://hg@bitbucket.org/zanshin/rails
+hg clone ssh://hg@bitbucket.org/lovejavaee/rails
 cd rails
 gem list --local rails
 rails _3.0.0.rc2_ new doc_api
@@ -997,8 +997,8 @@ cd koans
 ruby path_to_enlightenment.rb 
 mate ../koans
 ruby path_to_enlightenment.rb 
-ping mail.zanshin.net
-ping zanshin.net
+ping mail.lovejavaee.net
+ping lovejavaee.net
 ping google.com
 ruby path_to_enlightenment.rb 
 today
@@ -1742,7 +1742,7 @@ today
 palantir
 git --version
 git config --global user.name "Mark Nichols"
-git config --global user.email "mark@zanshin.net"
+git config --global user.email "mark@lovejavaee.net"
 git config --global core.autocrlf input
 git config --global core.safecrlf true
 cd Projects/
@@ -2167,7 +2167,7 @@ mvn
 cd ..
 mkdir StrutsMovie-maven
 cd StrutsMovie-maven/
-mvn archetype:create -DgroupId=net.zanshin.strutsmovie -DartifactId=strutsmovie -DarchetypeArtifactId=maven-archetype-webapp
+mvn archetype:create -DgroupId=net.lovejavaee.strutsmovie -DartifactId=strutsmovie -DarchetypeArtifactId=maven-archetype-webapp
 mvn --version
 cd /usr/local
 brew list
@@ -2215,7 +2215,7 @@ mvn clean build
 mvn clean install
 cd ../
 cd StrutsMovie-maven/
-mvn archetype:generate -B                        -DgroupId=net.zanshin.strutsmovie-maven                        -DartifactId=strutsmovie-maven                        -DarchetypeGroupId=org.apache.struts                        -DarchetypeArtifactId=struts2-archetype-blank                        -DarchetypeVersion=2.2.1
+mvn archetype:generate -B                        -DgroupId=net.lovejavaee.strutsmovie-maven                        -DartifactId=strutsmovie-maven                        -DarchetypeGroupId=org.apache.struts                        -DarchetypeArtifactId=struts2-archetype-blank                        -DarchetypeVersion=2.2.1
 ls -l
 cd strutsmovie-maven/
 ls -l
@@ -2410,8 +2410,8 @@ today
 cd ~/Projects/hg
 cd django/
 cd ..
-hg clone https://zanshin@bitbucket.org/zanshin/bespoke
-hg clone ssh://hg@bitbucket.org/zanshin/bespoke
+hg clone https://lovejavaee@bitbucket.org/lovejavaee/bespoke
+hg clone ssh://hg@bitbucket.org/lovejavaee/bespoke
 mate bespoke/
 cd bespoke/
 cd /usr/local
@@ -2510,13 +2510,13 @@ ls -l
 cd hello_android_book/
 cd Projects/
 cd hg
-hg clone ssh://hg@bitbucket.org/zanshin/android
+hg clone ssh://hg@bitbucket.org/lovejavaee/android
 cd android/
 mate .
 whereis hg
 cd ..
 rm -rf android/
-hg clone ssh://hg@bitbucket.org/zanshin/android
+hg clone ssh://hg@bitbucket.org/lovejavaee/android
 rm -rf android/
 cd ../android/
 cd code/
@@ -2541,7 +2541,7 @@ rm -rf Android/
 cd ..
 cd hg
 rm -rf android/
-hg clone ssh://hg@bitbucket.org/zanshin/android
+hg clone ssh://hg@bitbucket.org/lovejavaee/android
 cd android/
 ls -a
 mate .hgrc
@@ -2772,7 +2772,7 @@ brew search t*
 brew search x?
 brew search x*
 brew search
-cd Projects/git/subversion/zanshin/
+cd Projects/git/subversion/lovejavaee/
 ls -l
 ls | wc -l
 cd ../rel-1.0/
@@ -2791,44 +2791,44 @@ cd Projects/git
 cd subversion/
 less authors
 rm authors 
-cd zanshin.git/
+cd lovejavaee.git/
 cd ..
-git clone subversion/zanshin.git
-cd zanshin/
+git clone subversion/lovejavaee.git
+cd lovejavaee/
 cd ..
-rm -rf zanshin/
+rm -rf lovejavaee/
 cd subversion/
 ls -l
 curl -I http://jacobian.org
-curl -I http://zanshin.net
+curl -I http://lovejavaee.net
 cd ..
 rm -rf subversion/
 mkdir subversion
 cd subversion/
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-1.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-1.0
 cd rel-1.0/
 ls -a
 rm -rf .svn
-mkdir ../zanshin
-cd ../zanshin/
+mkdir ../lovejavaee
+cd ../lovejavaee/
 cp ../rel-1.0/* .
 git init
 git add *
 gs
-git commit -m "initial commit of zanshin repository"
+git commit -m "initial commit of lovejavaee repository"
 gs
 git tag -a -m "tagging release 1.0" v1.0
 cd ..
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-2.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-2.0
 cd rel-2.0/
 ls -l
 ls | wc -l
 cd ..
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-3.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-3.0
 cd rel-3.0/
 cd ../rel-2
 cd ../rel-2.0/
-cd ../zanshin/
+cd ../lovejavaee/
 rm *
 rm -rf graphics/
 cp -r ../rel-3.0/* .
@@ -2912,12 +2912,12 @@ vim README
 ga .
 gs
 gm "adding README"
-git remote add origin git@github.com:zan5hin/zanshin.git
+git remote add origin git@github.com:zan5hin/lovejavaee.git
 git push origin master
 ls -a
-git remote add origin git@github.com:zan5hin/zanshin.git
+git remote add origin git@github.com:zan5hin/lovejavaee.git
 git push origin master
-git remote add origin git@github.com:zan5hin/zanshin.net.git
+git remote add origin git@github.com:zan5hin/lovejavaee.net.git
 git push origin master
 cd Projects/
 cd git
@@ -2926,11 +2926,11 @@ cd subversion/
 cp ~/Projects/hg/subversion/authors .
 cd ..
 git svn clone ~/Dropbox/.svnrepository --no-metadata -A subversion/authors -t tags -b branches -T trunk subversion/
-git svn clone ~/Dropbox/.svnrepository --no-metadata -A subversion/authors -t tags -b branches -T ~/Dropbox/.svnrepository/zanshin/trunk subversion/
-git svn clone ~/Dropbox/.svnrepository --no-metadata -A subversion/authors -t tags -b branches -T ~/Dropbox/.svnrepository/zanshin/trunk/ subversion/
-git svn clone ~/Dropbox/.svnrepository/zanshin --no-metadata -A subversion/authors -t tags -b branches -T trunk subversion/
-git svn clone ~/Dropbox/.svnrepository/zanshin --no-metadata -A subversion/authors -t tags -b branches -T ~/Dropbox/.svnrepository/zanshin/trunk subversion/
-git svn clone file:///Users/mark/Dropbox/.svnrepository/zanshin --no-metadata -A subversion/authors -t tags -b branches -T trunk subversion/
+git svn clone ~/Dropbox/.svnrepository --no-metadata -A subversion/authors -t tags -b branches -T ~/Dropbox/.svnrepository/lovejavaee/trunk subversion/
+git svn clone ~/Dropbox/.svnrepository --no-metadata -A subversion/authors -t tags -b branches -T ~/Dropbox/.svnrepository/lovejavaee/trunk/ subversion/
+git svn clone ~/Dropbox/.svnrepository/lovejavaee --no-metadata -A subversion/authors -t tags -b branches -T trunk subversion/
+git svn clone ~/Dropbox/.svnrepository/lovejavaee --no-metadata -A subversion/authors -t tags -b branches -T ~/Dropbox/.svnrepository/lovejavaee/trunk subversion/
+git svn clone file:///Users/mark/Dropbox/.svnrepository/lovejavaee --no-metadata -A subversion/authors -t tags -b branches -T trunk subversion/
 cd subversion/
 ls -l
 git branch -r
@@ -2941,23 +2941,23 @@ mkdir subversion
 cp ../hg/subversion/authors subversion/
 cd subversion/
 less authors 
-git svn clone file:///Users/mark/Dropbox/.svnrepository/zanshin --no-metadata -A subversion/authors -t tags -b branches -T trunk subversion/zanshin
+git svn clone file:///Users/mark/Dropbox/.svnrepository/lovejavaee --no-metadata -A subversion/authors -t tags -b branches -T trunk subversion/lovejavaee
 cd ..
-git svn clone file:///Users/mark/Dropbox/.svnrepository/zanshin --no-metadata -A subversion/authors -t subversion/tags -b subversion/branches -T trunk subversion/zanshin
+git svn clone file:///Users/mark/Dropbox/.svnrepository/lovejavaee --no-metadata -A subversion/authors -t subversion/tags -b subversion/branches -T trunk subversion/lovejavaee
 cd subversion/
-cd zanshin/
+cd lovejavaee/
 ls -a
 git branches -r
 git branch -r
 git tag rel-1.0 tags/rel-1.0
 cd ..
-rm -rf zanshin/
+rm -rf lovejavaee/
 cd ..
 git clone git://github.com/JohnAlbin/git-svn-migrate.git
 cd git-svn-migrate/
 less sample-repository-list.txt 
-whois zanshin.com
-whois zanshin.net
+whois lovejavaee.com
+whois lovejavaee.net
 cp sample-repository-list.txt repository-list.txt
 vim repository-list.txt 
 less repository-list.txt 
@@ -2972,7 +2972,7 @@ diff rel-1.0/ rel-2.0/ | grep Only
 diff rel-1.0/ rel-2.0/ 
 diff rel-1.0/ rel-2.0/ | grep Only
 diff rel-1.0/ rel-2.0/ | grep Only | grep rel-1.0
-cd zanshin/
+cd lovejavaee/
 rm *
 cp ../rel-2.0/* .
 cp -r ../rel-2.0/* .
@@ -2982,18 +2982,18 @@ gs
 gm "(hopefully) imported version 2 of site on top of version 1"
 git tag -a -m "tagging release 2.0" v2.0
 cd ..
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-4.0
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-5.0
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-6.0
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-7.0
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-8.0
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-9.0
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-10.0
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-11.0
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-12.0
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-13.0
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-14.0
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-15.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-4.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-5.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-6.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-7.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-8.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-9.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-10.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-11.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-12.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-13.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-14.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-15.0
 cd Projects/git
 cd dotfiles/
 gc HEAD
@@ -3139,15 +3139,15 @@ hg status
 hg manifest
 vim authors
 hg co aiydk
-hg checkout zanshin
-hg clone zanshin
+hg checkout lovejavaee
+hg clone lovejavaee
 cd ..
 rm -rf subversion/
 mkdir subversion
 cd subversion/
 vim authors
-hg convert --authors authors file:///Users/mark/Dropbox/.svnrepository/zanshin
-cd zanshin-hg/
+hg convert --authors authors file:///Users/mark/Dropbox/.svnrepository/lovejavaee
+cd lovejavaee-hg/
 hg manifest
 hg status
 hg branches -a
@@ -3181,8 +3181,8 @@ hg convert --authors authors file:///Users/mark/Dropbox/.svnrepository/CoolBeans
 hg convert --authors authors file:///Users/mark/Dropbox/.svnrepository/ComponentArchitecturePOC
 hg convert --authors authors file:///Users/mark/Dropbox/.svnrepository/aiydk
 ls -l
-cd zanshin-hg/
-hg push ssh://hg@bitbucket.org/zanshin/zanshin
+cd lovejavaee-hg/
+hg push ssh://hg@bitbucket.org/lovejavaee/lovejavaee
 cd ..
 ls | wc -l
 today
@@ -3190,29 +3190,29 @@ cd Projects/hg
 ;s
 mkdir test
 cd test
-hg clone ../subversion/zanshin-hg/
-cd zanshin-hg/
+hg clone ../subversion/lovejavaee-hg/
+cd lovejavaee-hg/
 ls -l
 today
 cd Projects/git
 cd subversion/
-rm -rf zanshin/
+rm -rf lovejavaee/
 cd ..
 rm -rf subversion/
 mkdir subversion
 cd subversion/
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/tags/rel-1.0
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-1.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/tags/rel-1.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-1.0
 rm -rf rel-1.0/
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-1.0 zanshin
-cd zanshin/
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-1.0 lovejavaee
+cd lovejavaee/
 git init
 ga .
 gm "importing version 1.0 from subversion"
 git tag -a -m "tagging version 1.0" v1.0
 svn up --revision54
 svn update -r54
-svn merge file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-2.0
+svn merge file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-2.0
 svn st
 svn commit -m "merged release 2 branch onto head"
 svn status
@@ -3222,34 +3222,34 @@ svn diff count.htm
 svn log
 svn diff r69 r66
 cd ..
-cd zanshin/
+cd lovejavaee/
 git branch release2
 git branch
 git co release2
 cd ..
-rm -rf zanshin/
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-1.0
+rm -rf lovejavaee/
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-1.0
 rm -rf rel-1.0/
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-1.0 zanshin
-cd zanshin/
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-1.0 lovejavaee
+cd lovejavaee/
 git init
 ga .
 gm "import of version 1.0"
 git tag -a -m "tagging version 1" v1.0
-svn merge file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-2.0
+svn merge file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-2.0
 svn status count.htm
 scn status bonsai.gif
 svn status bonsai.gif 
-svn --force merge file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-2.0
+svn --force merge file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-2.0
 cd ..
-rm -rf zanshin/
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-1.0 zanshin
-cd zanshin/
+rm -rf lovejavaee/
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-1.0 lovejavaee
+cd lovejavaee/
 git init
 ga .
 gm "import of version 1" 
 git tag -a -m "tagging version 1" v1.0
-svn --force merge file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-2.0
+svn --force merge file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-2.0
 svn status count.htm
 svn commit -m "merge rel2.0 into rel1.0"
 svn resolve
@@ -3263,12 +3263,12 @@ svn status
 less count.htm
 ls -l
 cd ..
-rm -rf zanshin/
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-1.0 zanshin
-cd zanshin/
+rm -rf lovejavaee/
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-1.0 lovejavaee
+cd lovejavaee/
 git init
 ga .
-gm "importing version 1.0 of zanshin.net from Subversion to Git"
+gm "importing version 1.0 of lovejavaee.net from Subversion to Git"
 gs
 vim ~/.bash_aliases 
 . ~/.bash_profile 
@@ -3279,7 +3279,7 @@ brew install sloccount
 cd Cellar/
 palantir
 palantir
-cd "/Users/mark/Projects/git/subversion/zanshin/"; clear; echo '# Opened by GitX:'; git status
+cd "/Users/mark/Projects/git/subversion/lovejavaee/"; clear; echo '# Opened by GitX:'; git status
 cd Projects/hg
 cd jacob/
 cd ..
@@ -3320,7 +3320,7 @@ cd Projects/hg/sites/sib
 cd Projects/hg/sites/
 cd sibyllekuder/
 vim index.php 
-cd Projects/git/subversion/zanshin/
+cd Projects/git/subversion/lovejavaee/
 gta "tagging version 1" v1.0
 git tag
 git branch
@@ -3331,7 +3331,7 @@ git checkout r2
 git branch
 git rm * --dry-run
 git rm * 
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-2.0
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-2.0
 ga .
 gm "removed all version 1 files, adding version 2 files"
 gs
@@ -3343,17 +3343,17 @@ gm "merged release 2 files from r2 branch to master"
 gta "tagging release 2 files" v2.0
 gc r2
 cd ..
-rm -rf zanshin/
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-1.0 zanshin
-cd zanshin/
+rm -rf lovejavaee/
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-1.0 lovejavaee
+cd lovejavaee/
 git init
 ga .
 gm "imported version 1 of files from Subversion to Git"
 gta "tagging version 1" v1.0
 cd ..
-rm -rf zanshin/
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-1.0 zanshin
-cd zanshin/
+rm -rf lovejavaee/
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-1.0 lovejavaee
+cd lovejavaee/
 vim .gitignore
 git init
 ga .
@@ -3368,9 +3368,9 @@ git rm *.html
 git rm htassess 
 git rm *.cgi
 ls -a
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-2.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-2.0 .
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-2.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-2.0 .
 ls -a
 gs
 ga .
@@ -3397,7 +3397,7 @@ cd graphics/
 cd ..
 rm graphics/
 rm -rf graphics/
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-3.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-3.0 .
 ga .
 gm "importing version 3 files into branch"
 gta "tagging version 3 files" v3.0
@@ -3414,7 +3414,7 @@ git rm *.shtml
 git rm *.zip
 ls -a
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-4.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-4.0 .
 ga .
 gm "importing version 4 files into branch"
 gta "tagging version 4 files" v4.0
@@ -3433,7 +3433,7 @@ git rm *.htm
 git rm -rf javascript/
 rm -rf javascript/
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-5.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-5.0 .
 ga .
 gm "importing version 5 files"
 gta "tagging version 5" v5.0
@@ -3450,7 +3450,7 @@ git rm *.shtml
 git rm -rf templates/
 rm -rf templates/
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-6.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-6.0 .
 ga .
 gm "importing version 6 files"
 gta "tagging version 6 files"
@@ -3465,9 +3465,9 @@ git rm *.htm
 git rm *.GIF
 git rm *.ttf
 git rm *.html
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-7.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-7.0 .
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-7.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-7.0 .
 ga .
 gm "importing version 7 files"
 gta "tagging version 7 files" v7.0
@@ -3481,7 +3481,7 @@ git rm *.GIF
 git rm *.htm
 git rm *.gif
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-8.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-8.0 .
 ga .
 gm "importing version 8 files"
 gta "tagging version 8" v8.0
@@ -3500,7 +3500,7 @@ git rm *.jpg
 git rm -rf js
 rm -rf js
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-9.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-9.0 .
 ga .
 gm "importing version 9 files"
 gta "tagging version 9" v9.0
@@ -3542,7 +3542,7 @@ rm -rf music
 rm -rf musings
 rm -rf templates/
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-10.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-10.0 .
 ga .
 gm "importing version 10 files"
 gta "tagging version 10" v10.0
@@ -3554,7 +3554,7 @@ git rm *.htm
 git rm -rf web
 rm -rf web
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-11.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-11.0 .
 ga .
 gm "importing version 11 files"
 gta "tagging version 11" v11.0
@@ -3569,7 +3569,7 @@ git rm *.jpg
 git rm -rf js
 rm -rf js
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-12.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-12.0 .
 ga .
 gm "importing version 12 files"
 gta "tagging version 12" v12.0
@@ -3587,7 +3587,7 @@ rm -rf cgi-bin/
 git rm -rf js
 rm -rf js
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-13.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-13.0 .
 ga .
 gm "importing version 13 files"
 gta "tagging version 13" v13.0
@@ -3610,7 +3610,7 @@ rm -rf test
 git rm -rf working
 rm -rf working
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-14.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-14.0 .
 ga .
 gm "importing version 14 files"
 gta "tagging version 14" v14.0
@@ -3623,7 +3623,7 @@ git rm -rf web
 rm -rf cgi
 rm -rf web
 rm -rf .svn
-svn co file:///Users/mark/Dropbox/.svnrepository/zanshin/branches/rel-15.0 .
+svn co file:///Users/mark/Dropbox/.svnrepository/lovejavaee/branches/rel-15.0 .
 ga .
 gm "importing version 15 files"
 gta "tagging version 15" v15.0
@@ -3633,7 +3633,7 @@ git branch
 vim README
 ga .
 gm "adding github suggested README file"
-git remote add origin git@github.com:zan5hin/zanshin.git
+git remote add origin git@github.com:zan5hin/lovejavaee.git
 git push origin master
 vim README 
 gs
@@ -3966,15 +3966,15 @@ git ls-tree HEAD
 cd ..
 cd subversion/
 ls -a
-cd zanshin/
+cd lovejavaee/
 ls -a
 gitx
 cd ,,
 cd ..
-gc git@github.com:zan5hin/zanshin.git
-git clone git@github.com:zan5hin/zanshin.git
+gc git@github.com:zan5hin/lovejavaee.git
+git clone git@github.com:zan5hin/lovejavaee.git
 cd ..
-git clone git@github.com:zan5hin/zanshin.git
+git clone git@github.com:zan5hin/lovejavaee.git
 cd bin
 cp ~/Downloads/sbt-launch-0.7.7.jar .
 vim sbt
@@ -4138,8 +4138,8 @@ find . -print | xargs -l {} lipo -info {} 2>/dev/null | grep ppc
 today
 cd Projects/git
 mate Smarterware/
-whois zanshin.net | grep email
-whois zanshin.net 
+whois lovejavaee.net | grep email
+whois lovejavaee.net 
 today
 w
 who
@@ -4152,7 +4152,7 @@ today
 env
 cd Projects/
 cd android/
-android create project --target android-2.2 --path . --package net.zanshin --activity HelloWorldActivity
+android create project --target android-2.2 --path . --package net.lovejavaee --activity HelloWorldActivity
 android list targets
 android
 env
@@ -4170,7 +4170,7 @@ vim .bash_profile
 . .bash_profile 
 android
 cd Projects/android/
-android create project --target android-2.2 --path . --package net.zanshin --activity HelloWorldActivity
+android create project --target android-2.2 --path . --package net.lovejavaee --activity HelloWorldActivity
 env
 mate ~/.bash_profile 
 mate ~/.bashrc
@@ -4215,9 +4215,9 @@ man ftp
 env
 android
 cd Projects/android/
-android create project --target android-2.2 --path . --package net.zanshin --activity HelloWorldActivity
+android create project --target android-2.2 --path . --package net.lovejavaee --activity HelloWorldActivity
 android list targets
-android create project --target android-8 --path . --package net.zanshin --activity HelloWorldActivity
+android create project --target android-8 --path . --package net.lovejavaee --activity HelloWorldActivity
 ls -l
 rm -rf android-sdk-mac_86/
 ls -l
@@ -4234,7 +4234,7 @@ ls -l
 rm AndroidManifest.xml 
 mkdir ubertest
 cd ubertest/
-android create project --target android-8 --path . --package net.zanshin --activity HelloWorldActivity
+android create project --target android-8 --path . --package net.lovejavaee --activity HelloWorldActivity
 ant compile
 cd Projects/
 cd android/
@@ -4259,7 +4259,7 @@ gm 'clean up commit'
 git push
 git push origin master
 cd za
-cd zanshin/
+cd lovejavaee/
 gs
 cd ..
 ls -a
@@ -4340,7 +4340,7 @@ cd Projects/
 cd git
 cd Uber11_android/
 gs
-android create project --path . --target android-8 --package net.zanshin --activity HelloActivity
+android create project --path . --target android-8 --package net.lovejavaee --activity HelloActivity
 rm AndroidManifest.xml 
 rm build.properties 
 rm build.xml 
@@ -4384,7 +4384,7 @@ mkdir uber
 cd uber
 mkdir AreWeThereYet
 cd AreWeThereYet/
-android create project --path . --target android-8 --package net.zanshin --activity MainActivity
+android create project --path . --target android-8 --package net.lovejavaee --activity MainActivity
 mate .
 cd ..
 rm -rf uber
@@ -4392,7 +4392,7 @@ rm -rf uber2011/
 mkdir uber
 cd uber/
 rm -rf AreWeThereYet/
-android create project --path . --target android-8 --package net.zanshin --activity MainActivity
+android create project --path . --target android-8 --package net.lovejavaee --activity MainActivity
 mate .
 cd ..
 cd idea
@@ -4502,7 +4502,7 @@ gs
 gm 'updated path statement ordering to allow (home)brew to fuction properly'
 ga bash_profile 
 gm 'updated path statement ordering to allow (home)brew to fuction properly'
-ping zanshin.net
+ping lovejavaee.net
 ping palantir.ome.ksu.edu
 palantir
 veld

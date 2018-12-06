@@ -1,6 +1,6 @@
 # Account Settings ------------------------------
 
-set from      = "chef@zanshin.net"
+set from      = "chef@lovejavaee.net"
 set sendmail  = "/usr/local/bin/msmtp -a chef"
 
 # Default inbox.

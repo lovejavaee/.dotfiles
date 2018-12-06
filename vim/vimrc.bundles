@@ -1,6 +1,6 @@
 " vimrc.bundles
-" Author: Mark Nichols <mark@zanshin.net>
-" Source: http:/github.com/zanshin/dotfiles/vim/vimrc.bundles
+" Author: Mark Nichols <mark@lovejavaee.net>
+" Source: http:/github.com/lovejavaee/dotfiles/vim/vimrc.bundles
 "
 " Setup bundles using Vundle ---------------------------------------------- {{{
 filetype on                       " best to have it on before turning it off
