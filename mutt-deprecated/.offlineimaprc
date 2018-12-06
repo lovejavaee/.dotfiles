@@ -35,7 +35,7 @@ nametrans = lambda folder: {'drafts':   '[Gmail]/Drafts',
 
 [Repository Chef-Local]
 type = Maildir
-localfolders = ~/.mail/chef-zanshin.net
+localfolders = ~/.mail/chef-lovejavaee.net
 
 [Repository mhn-Local]
 type = Maildir
@@ -58,11 +58,11 @@ folderfilter = lambda folder: folder not in ['[Gmail]/Trash', '[Gmail]/Important
 [Repository Chef-Remote]
 maxconnections = 3 
 type = IMAP
-remoteuser = chef_zanshin
+remoteuser = chef_lovejavaee
 remotehost = mail.webfaction.com
 remoteport = 993
 ssl = yes
-remotepasseval = get_keychain_pass(account="chef_zanshin", server="mail.webfaction.com")
+remotepasseval = get_keychain_pass(account="chef_lovejavaee", server="mail.webfaction.com")
 realdelete = no
 
 folderfilter = lambda folder: folder in ['INBOX', 'Sent Messages', 'Drafts', 'Trash', 'archive']

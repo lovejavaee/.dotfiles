@@ -1,5 +1,5 @@
 [ui]
-username = Mark Nichols <mark@zanshin.net>
+username = Mark Nichols <mark@lovejavaee.net>
 ignore = ${HOME}/.hgignore_global
 [extensions]
 convert =

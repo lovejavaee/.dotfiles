@@ -1,6 +1,6 @@
 # Account Settings ------------------------------
 
-set from      = "mark@zanshin.net"
+set from      = "mark@lovejavaee.net"
 set sendmail  = "/usr/local/bin/msmtp -a mark"
 
 # Default inbox.

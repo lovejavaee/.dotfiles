@@ -1,6 +1,6 @@
 " .vimrc
-" Author: Mark Nichols <mark@zanshin.net>
-" Source: http://github.com/zanshin/dotfiles/vim/vimrc
+" Author: Mark Nichols <mark@lovejavaee.net>
+" Source: http://github.com/lovejavaee/dotfiles/vim/vimrc
 "
 " Preface ---------------------------------------------------------------- {{{
 " Forget compatibility with vi. Who cares.

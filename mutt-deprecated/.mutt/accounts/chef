@@ -1,14 +1,14 @@
 # Account Settings -----
 
-set from      = "chef@zanshin.net"
+set from      = "chef@lovejavaee.net"
 set sendmail  = "/usr/local/bin/msmtp -a chef"
 
 # Default inbox.
-set spoolfile = "+chef-zanshin.net/INBOX"
+set spoolfile = "+chef-lovejavaee.net/INBOX"
 
 # Other special folders.
-set mbox      = "+chef-zanshin.net/archive"
-set postponed = "+chef-zanshin.net/drafts"
-set record    = "+chef-zanshin.net/Sent Messages"
+set mbox      = "+chef-lovejavaee.net/archive"
+set postponed = "+chef-lovejavaee.net/drafts"
+set record    = "+chef-lovejavaee.net/Sent Messages"
 
 color status yellow default

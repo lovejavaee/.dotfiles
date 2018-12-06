@@ -26,7 +26,7 @@ exclude        = "{$exclude,*.tmproj}"
 # Variables
 # ---------------------------------------------------------
 TM_FULLNAME   = "Mark H. Nichols"
-TM_ORGANIZATION = "zanshin.net"
+TM_ORGANIZATION = "lovejavaee.net"
 
 # ---------------------------------------------------------
 # Configure Git and Mercurial (hg)

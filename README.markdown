@@ -5,7 +5,7 @@ My primary OS is OS X (10.9.x) and some of these configurations are tuned to wor
 
 #Installation
 
-    git clone git://github.com/zanshin/dotfiles.git ~/.dotfiles
+    git clone git://github.com/lovejavaee/dotfiles.git ~/.dotfiles
 	
 # Updating
 There are still a couple git submodules included in this configuration. On a new
@@ -156,7 +156,7 @@ Create symlink to `doingrc` file.
 ## OpenConnect
 An alternative to using Cisco's AnyConnect.
 
-Requires that `openconnect` be installed via Homebrew and that TUN/TAP for OS X be installed. See http://zanshin.net/2013/08/27/setup-openconnect-for-mac-os-x-lion/
+Requires that `openconnect` be installed via Homebrew and that TUN/TAP for OS X be installed. See http://lovejavaee.net/2013/08/27/setup-openconnect-for-mac-os-x-lion/
 for details.
 
     $ ln -s ~/.dotfiles/openconnect/openconnect ~/.openconnect
