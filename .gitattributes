@@ -1,0 +1,4 @@
+secretfile filter=git-crypt diff=git-crypt
+*.key      filter=git-crypt diff=git-crypt
+*.gpg      filter=git-crypt diff=git-crypt
+secrecy/** filter=git-crypt diff=git-crypt
