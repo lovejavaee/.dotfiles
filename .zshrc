@@ -24,7 +24,6 @@ antigen bundles <<EOBUNDLES
 cp
 lein
 pip
-brew
 sublime
 gradle
 gem
