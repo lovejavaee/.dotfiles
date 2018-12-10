@@ -20,7 +20,7 @@ antigen theme juanghurtado
 
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
-antigen bundle <<EOBUNDLES
+antigen bundles <<EOBUNDLES
 cp
 lein
 pip
@@ -31,7 +31,6 @@ gem
 gitfast
 gitignore
 python
-cf
 sudo
 ssh-agent
 gpg-agent
@@ -39,7 +38,7 @@ asdf
 vscode
 vagrant
 vi-mode
-zsh-reload
+zsh_reload
 
 EOBUNDLES
 antigen bundle git
@@ -54,7 +53,6 @@ antigen bundle autojump
 antigen bundle compleat
 antigen bundle git-extras
 antigen bundle git-flow
-antigen bundle git-open
 antigen bundle extract
 antigen bundle npm
 antigen bundle osx
@@ -68,6 +66,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle dannyzen/cf-zsh-autocomplete-plugin
 antigen bundle soimort/translate-shell
+antigen bundle paulirish/git-open
 
 # External plugins
 # source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
