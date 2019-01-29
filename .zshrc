@@ -21,6 +21,7 @@ antigen theme juanghurtado
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundles <<EOBUNDLES
+asdf
 cp
 lein
 pip
@@ -38,6 +39,7 @@ vscode
 vagrant
 vi-mode
 zsh_reload
+kubectl
 
 EOBUNDLES
 antigen bundle git
@@ -83,5 +85,5 @@ antigen apply
 [[ -s "$HOME/.bash_aliases" ]] && source "$HOME/.bash_aliases"
 
 # For My custom
-[[ -s "$HOME/.antigen/oh-my-custom.zsh" ]] && source "$HOME/.antigen/oh-my-custom.zsh"
+[[ -s "$HOME/.dotfiles/.oh-my-zsh/custom/oh-my-custom.zsh" ]] && source "$HOME/.dotfiles/.oh-my-zsh/custom/oh-my-custom.zsh"
 # ========================================================================
