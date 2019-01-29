@@ -11,6 +11,7 @@
 # For SDKMAN
 # source ~/.sdkman/bin/sdkman-init.sh
 alias a='ag -f --hidden'
+alias an='antigen'
 alias as='apt search'
 alias ash='apt show'
 alias ai='sudo apt install -y'
