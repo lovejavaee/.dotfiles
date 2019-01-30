@@ -53,6 +53,8 @@ alias gip='gist-paste'
 alias wcl='wc -l'
 alias v='vi'
 alias newman='/home/jeff/tmp/node-v8.11.4-linux-x64/bin/newman'
+alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser"
+PATH=/home/jeff/.local/bin:$PATH
 #alias clip='clip.exe'
 #alias xclip='clip.exe'
 

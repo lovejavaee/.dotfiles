@@ -39,6 +39,7 @@ vscode
 vagrant
 vi-mode
 zsh_reload
+command-not-found
 kubectl
 
 EOBUNDLES
